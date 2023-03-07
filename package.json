@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "📂 Dashboard Icons for your selfhosted services.",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate:readme": "python3 scripts/generate_readme.py",
+    "generate:meta": "python3 scripts/generate_meta.py"
   },
   "repository": {
     "type": "git",

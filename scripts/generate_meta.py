@@ -2,8 +2,7 @@ import pathlib
 import json
 from pathlib import Path
 
-root = pathlib.Path(__file__).parent.resolve()
-json_path = root / "AllIconNames.json"
+json_path = "AllIconNames.json"
 
 
 pngs = sorted(Path("./png").glob("*.png"))
