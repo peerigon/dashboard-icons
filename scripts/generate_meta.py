@@ -2,11 +2,11 @@ import pathlib
 import json
 from pathlib import Path
 
-json_path = "AllIconNames.json"
+json_path = "../AllIconNames.json"
 
 
-pngs = sorted(Path("./png").glob("*.png"))
-svgs = sorted(Path("./svg").glob("*.svg"))
+pngs = sorted(Path("../png").glob("*.png"))
+svgs = sorted(Path("../svg").glob("*.svg"))
 
 def map_name(file):
     return file.name
